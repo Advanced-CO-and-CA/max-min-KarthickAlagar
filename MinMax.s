@@ -3,7 +3,7 @@
 z: .word
 @ DATA SECTION
 .data
-data_item:  .word 3423423,42,28,100,8,2342,4234,4234,44,0 
+data_item:  .word 10, 4, 28, 100, 8, 0 
 max:	    .word 
 min:	    .word
 increment:	    .word  
