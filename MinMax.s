@@ -40,7 +40,7 @@ loop:
      CMP r5,r1;		@Compare retrieved item with r5	
      MOVGT r5,r1;	;@store Min value in r5   
      CMP r6,r1;		@Compare retrieved item with r6	
-     MOVLT r6,r1;	;@store max value in r5   
+     MOVLT r6,r1;	;@store max value in r6   
      ADD r7,r7,#1;	@Increment value in r7
      B check
  _exit: 
